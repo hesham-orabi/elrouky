@@ -1,0 +1,108 @@
+.about_us {
+  font-family: Cairo, Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+}
+
+.about_us h2 {
+  color: #3871B2;
+  background-color: #F85C50;
+  padding: 13px;
+  font-weight: bold;
+  text-align: center !important;
+}
+
+.about_us .paragraph {
+  color: #F1F2F2;
+  margin-top: -10px;
+}
+
+.about_us p {
+  color: #c5d1dc;
+  background-color: #052555;
+  padding: 20px;
+  line-height: 1.8;
+  margin-bottom: 60px;
+  text-align: justify;
+}
+
+.about_us .first {
+  width: 280px;
+  height: 280px;
+}
+
+.about_us img {
+  width: 325px;
+  height: 325px;
+}
+
+.about_us .image {
+  text-align: center;
+  margin: auto;
+}
+
+.about_us h3 {
+  color: #031A28;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.about_us .social ul {
+  padding: 5px;
+}
+
+.about_us .social {
+  margin-top: 40px;
+  padding-bottom: 68px;
+}
+
+.about_us .social ul li {
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.about_us .social ul li a {
+  text-decoration: none;
+  color: #031A28;
+  padding-right: 15px;
+}
+
+.about_us .social ul li a i {
+  border: 2px solid #031A28;
+  padding: 14px;
+  border-radius: 16%;
+}
+
+.about_us .social ul li a i:hover {
+  border: none;
+  transition: all .5s ease-in-out;
+}
+
+.about_us .social .fa-facebook-f,
+.about_us .social .fa-instagram {
+  padding: 14px 17px !important;
+}
+
+.about_us .social i.fa-facebook-f:hover {
+  color: #fff;
+  background-color: #3b5998;
+  transition: all .5s ease-in-out;
+}
+
+.about_us .social .fa-twitter:hover {
+  color: #fff;
+  background-color: #1da1f2;
+  transition: all .5s ease-in-out;
+}
+
+.about_us .social .fa-envelope:hover {
+  color: #fff;
+  background-color: #ed1c24;
+  transition: all .5s ease-in-out;
+}
+
+.about_us .social .fa-instagram:hover {
+  color: #fff;
+  background-color: #e1306c;
+  transition: all .5s ease-in-out;
+}

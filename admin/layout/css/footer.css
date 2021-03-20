@@ -1,0 +1,167 @@
+.footer {
+  background-color: #031A28;
+  padding-top: 40px;
+  text-align: right;
+  color: #c5d1dc;
+  font-family: Cairo,Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.footer h5 {
+  color: #FCA92D;
+  margin-bottom: 33px;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer p a {
+  color: #c5d1dc;
+  text-decoration: none;
+}
+
+.footer p a:hover {
+  color: #FCA92D;
+}
+
+.footer p i {
+  margin-left: 6px;
+  color: #FCA92D;
+}
+
+.footer ul {
+  margin-right: -26px;
+}
+
+.footer ul li {
+  list-style: none;
+  float: right;
+  padding: 3px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+}
+
+.footer ul .fa-facebook {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 53px;
+  background-color: #3b5998;
+}
+
+.footer ul .fa-youtube {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 53px;
+  background-color: #ff0000;
+}
+
+.footer ul .fa-twitter {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 53px;
+  background-color: #1da1f2;
+}
+
+.footer ul .fa-instagram {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 53px;
+  background-color: #e1306c;
+}
+
+.footer form input,
+.footer form textarea {
+  margin-bottom: 20px;
+}
+
+.footer form textarea,
+.footer form input {
+  background-color: #222222;
+  color: #888888;
+  padding: 5px 12px;
+  text-align: center;
+  border: 1px solid #3c3c3c;
+  font-size: 13px;
+  width: 230px;
+  display: block;
+}
+
+
+/* Responsive Setting */
+@media (min-width: 892px) and (max-width: 1200px) {
+  .footer form textarea,
+  .footer form input,
+  .footer form button {
+    width: 80%;
+  }
+}
+
+.footer form button {
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 26px;
+  width: 230px;
+}
+
+.footer .new p,
+.footer .about p {
+  width: 90%;
+  line-height: 1.9;
+}
+
+.footer hr {
+  margin-top: 80px;
+  border: 1px solid #032570;
+  width: auto;
+}
+
+.footer .copyright i {
+  color: #FCA92D;
+}
+
+@media (min-width: 892px) and (max-width: 1200px) {
+  .footer form button {
+    width: 173px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer .card {
+    text-align: center;
+  }
+  .footer form button {
+    margin-bottom: 60px;
+  }
+  .footer .callUs {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767.99px) {
+  .footer .copyright p {
+    text-align: center !important;
+  }
+  .col-lg-3 {
+    text-align: center;
+  }
+  .footer form textarea,
+  .footer form input {
+    width: 80%;
+    display: inline-block;
+  }
+  .footer ul li {
+    float: none;
+    display: inline-block;
+  }
+}

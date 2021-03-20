@@ -1,0 +1,33 @@
+.navbar{
+    position: relative;
+}
+.all{
+    padding: 100px 0;
+    background-color: #222222;
+    text-align:center;
+    font-family: Cairo, Arial, Helvetica, sans-serif;
+}
+.all h1{
+
+    color:#fff;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    font-family: 'El Messiri', Arial, Helvetica, sans-serif;
+}
+.all .col-sm-4{
+    padding: 0;
+}
+.all .card{
+    margin: 20px;
+}
+.all .card .col-sm-4{
+    padding: 0;
+}
+.all .card img{
+    width: 100%;
+    height: 250px;
+}
+.all .card a{
+    width: 100%;
+    margin-top: 20px;
+}

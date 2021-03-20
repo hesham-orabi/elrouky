@@ -1,0 +1,95 @@
+.send-message{
+  margin: 0;
+}
+.contact-us {
+  text-align: right;
+  background-color: aliceblue;
+  padding-bottom: 65px;
+  font-family: Cairo, Arial, Helvetica, sans-serif;
+}
+
+.contact-us h4 {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  color: #56C0A4;
+  font-weight: bold;
+}
+
+.contact-us p {
+  font-size: 16px;
+}
+
+.contact-us p i.fa-map-marker-alt {
+  color: #EA4335;
+}
+
+.contact-us p i.fa-mobile-alt {
+  color: #D0B258;
+}
+
+.contact-us p i.fa-phone {
+  color: #6d6e70;
+}
+
+.contact-us p i.fa-envelope {
+  color: #410093;
+}
+
+.contact-us p a {
+  text-decoration: none;
+  color: #410093;
+}
+
+.contact-us p a:hover {
+  text-decoration: none;
+  color: #FCA92D;
+}
+
+.contact-us form input,
+.contact-us form label,
+.contact-us form textarea {
+  display: block;
+}
+
+.contact-us form input {
+  margin-bottom: 22px;
+  width: 536px;
+}
+
+.contact-us form label {
+  font-size: 14px;
+}
+
+.contact-us form textarea {
+  width: 536px;
+  height: 200px;
+}
+
+.contact-us form button {
+  color: #fff;
+  background-color: #FCA92D;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 26px;
+  width: 536px;
+}
+
+/* Responsive Setting*/
+@media (min-width: 767px) and (max-width: 1200px) {
+  .contact-us form textarea,
+  .contact-us form input,
+  .contact-us form button {
+    width: 280px;
+    border: none;
+  }
+}
+
+@media (max-width: 766.99px) {
+  .contact-us form textarea,
+  .contact-us form input {
+    width: 65%;
+  }
+  .contact-us form button {
+    width: 65%;
+  }
+}

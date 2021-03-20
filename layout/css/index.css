@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+body {
+  direction: rtl;
+}
+@font-face {
+  font-family: 'GE_Dinar_One_Light';
+  src: url('../myfonts/GE_Dinar_One_Light.otf');
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #014285;
+  font-family: 'GE_Dinar_One_Light' ,'El Messiri', sans-serif !important;
+  font-weight: bold;
+}
+hr {
+  border-top: 4px solid #005CA7;
+  width: 430px;
+}
+
+.navbar{
+  position:fixed;
+
+}
+
+
+
+
+/**********************************************Start Links*************************************/
+.all-links{
+  padding: 55px 0px 50px;
+  margin-top: -7px;
+  text-align: center;
+}
+.all-links h1{
+  color: #014285;
+}
+.all-links p{
+  margin-bottom: 75px;
+  font-size: 20px;
+  font-family: 'GE_Dinar_One_Light' ,'El Messiri', sans-serif !important;
+}
+.all-links hr{
+    border-top: 1px solid #d2d6da;
+    width: 100%;
+}
+
+.all-links .main-links img,
+.all-links .ceramic-links img,
+.all-links .poreclian-links img,
+.all-links .sw-ware-links img{
+  width: 180px;
+  height: 180px;
+  cursor: pointer;
+}
+.all-links .ceramic-links a,
+.all-links .poreclian-links a,
+.all-links .sw-ware-links a{
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: #5294CB;
+  text-decoration: none;
+  margin-top:20px;
+}
+.all-links .ceramic-links .arrow,
+.all-links .poreclian-links .arrow,
+.all-links .sw-ware-links .arrow{
+  width: 30px;
+  height: 30px;
+}
+
+.all-links .ceramic-links,
+.all-links .poreclian-links,
+.all-links .sw-ware-links{
+  display: none ;
+
+}
+/********************************************** End Links *************************************/
+
+
+/********************************************** Start Offers*********************************/
+.offers{
+  padding: 0px 0px 115px;
+}
+.offers .container{
+  direction: ltr;
+  color: #fff;
+  display: grid;
+  grid-column-gap: 60px;
+
+  grid-template-areas: 
+    "head1 head1 head1 head2 head2 head2"
+    "leftt leftt right1 right1 right2 right2"
+    "leftt leftt right3 right3 right4 right4";
+}
+
+.offers .container .head1{
+  grid-area: head1;
+}
+.offers .container .head2{
+  grid-area: head2;
+}
+.offers .container .leftt{
+  grid-area: leftt;
+}
+.offers .container .right1{
+  grid-area: right1;
+}
+.offers .container .right2{
+  grid-area: right2;
+}
+.offers .container .right3{
+  grid-area: right3;
+}
+.offers .container .right4{
+  grid-area: right4;
+}
+.offers .container img{
+  width: 100%;
+  height: 80%;
+  cursor: pointer;
+}
+.offers .container .leftt img{
+  width: 100%;
+  height: 90%;
+  cursor: pointer;
+}
+.head1,.head2,.leftt,.right1,.right2,.right3,.right4{
+  position: relative;
+}
+.offers .container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  display: none;
+  cursor: pointer;
+}
+.offers .container .leftt .overlay {
+  height: 90%;
+}
+.head1:hover .overlay,
+.head2:hover .overlay,
+.leftt:hover .overlay,
+.right1:hover .overlay,
+.right2:hover .overlay,
+.right3:hover .overlay,
+.right4:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .4);
+}
+
+.offers .container h4{
+  color: #014285;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'El Messiri', sans-serif !important;
+  cursor: pointer;
+}
+
+
+@media(max-width:576px){
+  .offers{
+    padding: 0px 0px 35px;
+  }
+  .offers .container{
+    display: block;
+  }
+  .offers .container .overlay {
+    display:none;
+  }
+  .offers .container h4{
+    margin: 20px 0 35px;
+    padding: 0px;
+  }
+
+}
+/********************************************** End Offers *********************************/
+
+/********************************************** Start Blogger *********************************/
+.blogger{
+  text-align: center;
+  padding: 55px 0;
+  background-color:#014285;
+}
+.blogger h1{
+  color: #fff;
+  margin-bottom: 30px;
+  font-family: 'GE_Dinar_One_Light' ,'El Messiri', sans-serif !important;
+}
+.blogger .col-sm-4{
+  padding: 0;
+}
+.blogger .card{
+  margin: 20px;
+}
+.blogger .card img{
+  width: 100%;
+  height: 250px;
+}
+.blogger h6{
+  color:#014285;
+  font-weight: bold;
+  margin-bottom: 0;
+  height: 50px;
+  line-height: 25px;
+  font-family: 'GE_Dinar_One_Light' ,'El Messiri';
+}
+.blogger .card a{
+  width: 100%;
+  margin-top: 25px;
+  background-color:rgba(0,0,0,.9);
+  border: none;
+}
+.blogger .card a:hover{
+  background-color:#014285;
+}
+
+/**********************************************End Blogger*************************************/
+
+
+/**********************************************ٍStart Sponser*************************************/
+.sponser {
+  padding: 55px 0;
+}
+
+.sponser h2 {
+  margin: 65px 0;
+}
+.sponser img {
+  width: 180px;
+}
+
+/**********************************************ٍEnd Sponser*************************************/
+
+
+/*Responsive Setting*/
+
+@media (max-width: 930px) {
+  .about .history {
+    width: 80%;
+  }
+}
+@media (max-width: 992px) {
+  .zagOpen iframe {
+    width: 100%;
+  }
+}
+@media (max-width: 767.99px) {
+  .about-company .history p span{
+    display: none;
+  }
+}
+@media (max-width: 567.99px) {
+  video{
+    margin-top: 80px;
+  }
+  .all-links .main-links img,
+  .all-links .ceramic-links img,
+  .all-links .poreclian-links img,
+  .all-links .sw-ware-links img{
+    width: 120px;
+    height: 120px;
+}
+  .blogger {
+    padding: 20px 0;
+  }
+  .about .history p {
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .about .history {
+    width: auto;
+    padding: 66px 28px;
+  }
+
+  .about hr {
+    width: auto;
+  }
+  .sponser img {
+    width: 80px;
+  }
+}
+

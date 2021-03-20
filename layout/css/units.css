@@ -1,0 +1,68 @@
+.units {
+  font-family: 'El Messiri', sans-serif;
+}
+
+.units .carousel img {
+  height: 600px;
+}
+
+.units .carousel .carousel-item h3 {
+  position: absolute;
+  right: 55px;
+  top: 219px;
+  padding: 20px;
+  color: #FCA92D;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+}
+
+.units .container h4 {
+  color: #FCA92D;
+  margin-top: 59px;
+}
+
+.units .container p {
+  margin-top: 21px;
+  margin-bottom: 45px;
+}
+
+.units .card {
+  width: 330px;
+  margin-bottom: 40px;
+  margin-right: 35px;
+}
+
+.units .card img {
+  height: 480px;
+}
+
+.units .card-body {
+  padding: 0;
+}
+
+.units .card a {
+  display: block;
+}
+
+/*Responsive Setting*/
+@media (min-width: 468px) and (max-width: 992px) {
+  .units .card {
+    width: 400px;
+  }
+}
+@media (max-width: 567.99px) {
+  .units .carousel img {
+    height: 300px;
+  }
+  .units .carousel .carousel-item h3 {
+    right: 10px;
+    top: 180px;
+
+  }
+}
+@media (max-width: 370px) {
+  .row {
+    width: 305px;
+  }
+}

@@ -1,0 +1,169 @@
+
+.poreclain_cleopatra {
+  margin-bottom: 40px;
+  font-family: 'El Messiri', sans-serif;
+}
+
+.poreclain_cleopatra .header img {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 40px;
+}
+
+.poreclain_cleopatra .header h3 {
+  position: absolute;
+  top: 368px;
+  right: 55px;
+  color: #FCA92D;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.poreclain_cleopatra .view img {
+  height: 600px;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.poreclain_cleopatra p {
+  font-size: 14px;
+}
+
+.poreclain_cleopatra .type h3 {
+  margin-bottom: 26px;
+  margin-top: 60px;
+}
+
+.poreclain_cleopatra .type p img {
+  width: 40px;
+  height: 40px;
+  font-family: 'Cairo',Arial, Helvetica, sans-serif;
+}
+
+.poreclain_cleopatra .insta .row {
+  margin-bottom: 20px;
+}
+
+.poreclain_cleopatra .insta {
+  margin-top: 45px;
+}
+
+.poreclain_cleopatra .insta h5 {
+  margin-bottom: 38px;
+  text-align: right;
+}
+
+.poreclain_cleopatra .insta a img {
+  width: 65px;
+  height: 65px;
+}
+
+.poreclain_cleopatra .insta a img:hover {
+  opacity: .7;
+}
+
+.poreclain_cleopatra .insta p a {
+  text-decoration: none;
+  color: #FCA92D;
+  text-align: right;
+  display: block;
+  margin-top: 43px;
+  font-style: italic;
+}
+
+.poreclain_cleopatra .insta p a:hover {
+  text-decoration: none;
+  color: #000;
+  transition: 'all.5s ease-in-out';
+}
+
+.poreclain_cleopatra .col-md-3 {
+  padding: 10px;
+  border: 1px solid #777;
+  border-right: none;
+  border-top: none;
+}
+
+.poreclain_cleopatra .show {
+  border: 1px solid #777;
+  border-left: none;
+  border-bottom: none;
+  margin-top: 50px;
+}
+
+.poreclain_cleopatra .show img {
+  width: 100%;
+  height: 217px;
+}
+
+.poreclain_cleopatra .over {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.poreclain_cleopatra .info {
+  position: absolute;
+  top: 35px;
+  right: 69px;
+  bottom: 0;
+  left: 74px;
+  text-align: center;
+}
+
+.poreclain_cleopatra .info h4,
+.poreclain_cleopatra .info p span a {
+  color: #FCA92D;
+  text-decoration: none;
+}
+
+.poreclain_cleopatra .info p span a:hover {
+  color: #FFF;
+}
+
+.poreclain_cleopatra .info p {
+  color: #E4FFF9;
+}
+
+.poreclain_cleopatra .info p:hover {
+  color: #fff;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.poreclain_cleopatra .details {
+  display: none;
+}
+
+.poreclain_cleopatra .all-products:hover .details{
+  display: block;
+  transition: all 1s ease-in-out;
+}
+
+/* Responsive Setting*/
+@media (min-width: 767px) and (max-width: 991.99px) {
+  .poreclain_cleopatra .insta a img {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 766.99px) {
+  .poreclain_cleopatra .header h3 {
+    top: 180px;
+  }
+  .poreclain_cleopatra .header img {
+    height: 300px;
+  }
+  .poreclain_cleopatra .insta a img {
+    width: 100%;
+    height: 313px;
+  }
+  .poreclain_cleopatra .insta p a {
+    text-align: center;
+  }
+}

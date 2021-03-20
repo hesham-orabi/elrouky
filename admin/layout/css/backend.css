@@ -1,0 +1,273 @@
+body{
+	font-family: Cairo, Arial, Helvetica, sans-serif;
+}
+*:focus {
+	outline: none;
+  }
+  
+/***************************** Index page ******************************/
+.login-box {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 400px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  direction: ltr;
+}
+.login-box h1{
+	color: #16a085;
+	font-weight: bold;
+}
+
+.login-box .left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+
+.login-box h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+.login-box input[type="text"]:focus,
+.login-box input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+
+.login-box input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+.login-box input[type="submit"]:hover,
+.login-box input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.login-box input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.login-box .or {
+  position: absolute;
+  top: 154px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
+
+.login-box .right {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background: url('https://goo.gl/YbktSj');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}
+
+.login-box .right .loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #FFF;
+  text-align: center;
+}
+
+.login-box button.social-signin {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+.login-box button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+  background: #32508E;
+}
+
+.login-box button.social-signin.twitter {
+  background: #55ACEE;
+}
+
+.login-box button.social-signin.google {
+  background: #DD4B39;
+}
+
+/***************************** blogger page ******************************/
+
+/* Manage */
+.blogger .manage{
+  padding:40px 25px
+}
+.blogger .manage .main-table{
+	-webkit-box-shadow: 0px 3px 10px #ccc;
+	-moz-box-shadow: 0px 3px 10px #ccc;
+	box-shadow: 0px 3px 10px #ccc;
+}
+.blogger .manage .main-table td{
+	text-align: center;
+	background-color: #fff;
+	vertical-align: middle !important;
+	border: 2px solid#FF2A00;
+}
+.blogger .manage .main-table tr:first-child td{
+
+	background-color: #333;
+	color: #fff;
+}
+.blogger .manage .main-table td img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+.blogger .manage .main-table td a{
+  font-size: 10px;
+  margin-top: 15px;
+  width: 82px;
+}
+.blogger .main-table td a i{
+	position: relative;
+    left: -4px;
+}
+.blogger .manage .main-table .btn{
+	padding: 3px 10px;
+}
+
+.blogger .container {
+	max-width: 1250px;
+	text-align: center;
+}
+.blogger h1{
+	font-size:55px;
+	margin: 40px 0;
+	font-weight: bold;
+	color: #FF2A00;
+}
+.blogger form label{
+	font-weight: bold;
+}
+.blogger .form-group{
+	position: relative;
+}
+.blogger .form-group .styl{
+	position: absolute;
+	top: 2px;
+	background-color:#B33771;
+	color: #eaeaea;
+	z-index: 20000;
+}
+.blogger .form-control{
+	position: relative;
+}
+input[type="file"]{
+  padding: 6px;
+  height: auto;
+	width: 133px;
+	color:transparent;
+  display: block;
+  border: 0;
+}
+
+.blogger .manage .btn-manage{
+	  display: block;
+    width: 300px;
+    margin: 40px auto;
+}
+
+
+/* Add */ 
+.add .form-group{
+  position: relative;
+}
+.add .label-title{
+  color:#FF2A00
+}
+.add .form-group i{
+  color:#FF2A00;
+  position: absolute;
+  top: 3px;
+  left: 40px;
+  display: none;
+}
+.blogger .add .btn-add{
+  display: block;
+  width: 300px;
+  margin: 80px 50%;
+}
+
+/* Edit */ 
+
+.edit .label-title{
+  color:#FF2A00
+}
+.blogger .edit .btn-edit{
+  display: block;
+  width: 300px;
+  margin: 80px 50%;
+}

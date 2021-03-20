@@ -1,0 +1,58 @@
+.show_rooms {
+  font-family: "Cairo", serif;
+}
+
+.show_rooms .info h2 {
+  color: #3871B2;
+  background-color: #F85C50;
+  padding: 13px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: center !important;
+}
+
+.show_rooms p {
+  color: #F1F2F2;
+  background-color: #052555;
+  margin-top: -8px;
+  padding: 20px;
+  line-height: 1.8;
+}
+
+/***********************************Start Abo Hammad ShowRooms**********************/
+.show_rooms .aboHammad h2,
+.show_rooms .zagazig h2 {
+  margin-top: 69px;
+  margin-bottom: 45px;
+  color: #FCA92D;
+  font-weight: bold;
+}
+
+.show_rooms .aboHammad p,
+.show_rooms .zagazig p {
+  color: black;
+  background-color: #F1F2F2;
+  padding: 30px;
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+.carousel-item img {
+  height: 500px;
+}
+
+.carousel-item h3 {
+  color: #F85C50;
+  position: absolute;
+  top: 115px;
+  right: 0;
+  background-color: rgba(192, 192, 192, 0.7);
+  padding: 15px;
+}
+
+.zagazig .carousel {
+  margin-bottom: 50px;
+}
+
+/***********************************End Abo Hammad ShowRooms**********************/
+

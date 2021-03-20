@@ -1,0 +1,82 @@
+.sanitary_offers{
+    font-family: "Cairo", serif;
+    margin-bottom: 60px;
+}
+.sanitary_offers .info h2{
+    color: #3871B2;
+    background-color: #F85C50;
+    padding: 13px;
+    font-weight: bold;
+}
+.sanitary_offers .info p{
+    color: #F1F2F2;
+    background-color: #052555;
+    margin-top: -10px;
+    padding: 20px;
+    line-height: 1.8;
+}
+.sanitary_offers h3{
+    color: #F85C50;
+    font-weight: bold;
+    background-color: #2c3e50;
+    padding: 20px;
+    width: auto;
+    margin: 95px auto 37px;
+    border-radius: 50px;
+    border: 6px solid #F85C50;
+}
+.sanitary_offers .card{
+    width: 330px;
+    margin-right: 35px;
+    margin-top: 35px;
+}
+.sanitary_offers .card img{
+  height: 370px
+}
+.sanitary_offers .card-body{
+    padding: 15px 0px;
+    background-color: #052555;
+}
+.sanitary_offers .card h5{
+    margin: 0px;
+    color: #F85C50;
+    font-family: 'El Messiri', sans-serif;
+}
+.sanitary_offers .card a{
+    display: block;
+    color: #F85C50;
+    border-radius: 20px;
+    font-family: Cairo ,'El Messiri', sans-serif;
+}
+.sanitary_offers .card a:hover{
+    background-color: #C82333;
+    color: #fff;
+    border: 1px solid #C82333;
+    font-family: 'El Messiri', sans-serif;
+}
+#scrollTop {
+    margin-right: 10px;
+    font-size: 60px;
+    color: #FCA92D;
+    position: fixed;
+    bottom: 54px;
+    right: 20px;
+    z-index: 9999;
+    cursor: pointer;
+    display: none;
+ }
+ /* Responsive Setting */
+
+  @media (min-width:768px) AND (max-width:992px){
+    .sanitary_offers .card{
+        width: 267px;
+    }
+
+  }
+  @media (max-width: 767.99px) {
+    .sanitary_offers .card{
+        margin: auto auto 40px;
+    }
+  }
+  
+  

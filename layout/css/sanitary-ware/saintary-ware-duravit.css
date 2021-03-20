@@ -1,0 +1,90 @@
+.navbar{
+    position: relative;
+}
+.sw_duravit{
+    margin-bottom: 40px;
+    font-family: 'El Messiri', sans-serif;
+}
+.sw_duravit .header{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 40px;
+}
+.sw_duravit .header h2{
+    color: #FCA92D;
+    letter-spacing: 11px;
+    margin: 41px auto;
+    font-weight: bold;
+}
+.sw_duravit .header ul {
+    margin:25px
+}
+.sw_duravit .header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+}
+.sw_duravit .header ul li a{
+    color: #777777;
+}
+.sw_duravit .header ul li .fa-facebook:hover{
+    color: #3b5998;
+}
+.sw_duravit .header ul li .fa-twitter:hover{
+    color: #1da1f2;
+}
+.sw_duravit .header ul li .fa-youtube:hover{
+    color: #ff0000;
+}
+.sw_duravit .header ul li .fa-instagram:hover{
+    color: #c13584;
+}
+.sw_duravit .header ul li .fa-envelope:hover{
+    color: #410093;
+}
+.sw_duravit .container h4{
+    color: #FCA92D;
+    margin-top: 133px;
+}
+.sw_duravit .container p{
+    margin-top:12px;
+    margin-bottom: 45px;
+}
+.sw_duravit .card{
+    width: 330px;
+    margin-bottom: 40px;
+    margin-right: 35px;
+}
+.sw_duravit .card img{
+    height: 328px;
+}
+.sw_duravit .card h5{
+    margin-top: 10px;
+    margin-bottom: 18px;
+    color: #FCA92D;
+}
+.sw_duravit .card a{
+    display: block;
+}
+.sw_duravit .card a:hover{
+    background-color: #C82333;
+    border: 1px solid #C82333;
+    font-family: Cairo, sans-serif;
+}
+
+
+/* Responsive Setting*/
+
+@media (max-width: 567.99px) {
+    .sw_duravit .header ul li{
+        padding: 10px;
+    }
+    .sw_duravit .header h2{
+        margin-bottom: -50px;
+}
+}
+@media (max-width: 767.99px) {
+    .sw_duravit .card{
+        margin: auto auto 40px;
+}
+}

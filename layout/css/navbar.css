@@ -1,0 +1,149 @@
+body {
+  direction: rtl;
+}
+@font-face {
+  font-family: 'GE_Dinar_One_Light';
+  src: url('../myfonts/GE_Dinar_One_Light.otf');
+
+}
+.bg-light {
+
+  background-color:rgba(54,54,54,0.9)!important
+}
+
+.navbar {
+  padding: 0px;
+  font-family: 'GE_Dinar_One_Light' ,'El Messiri', sans-serif;
+  width: 100%;
+  z-index: 99999;
+}
+.navbar-light .navbar-toggler {
+     border: none;
+}
+.navbar button:focus {
+  outline: none;
+}
+
+.navbar .collapse {
+  margin-right: 240px;
+}
+
+.navbar-brand img {
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+  padding-bottom: 28px;
+  padding-top: 34px;
+  font-size: 16px;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #014285;
+  transition: all .3s ease-in-out;
+}
+
+.navbar .dropdown-menu {
+  background-color: rgba(54,54,54,0.9)!important;
+  text-align: left;
+  position: absolute;
+  top: 82px;
+  left: -58px;
+  border-radius: 0;
+  padding: 0px;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  text-align: center;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 0.25rem 0.5rem;
+}
+
+/* Scroll Button For All Pages*/
+#scrollTop {
+  margin-right: 10px;
+  font-size: 60px;
+  color: #FCA92D;
+  position: fixed;
+  bottom: 54px;
+  right: 20px;
+  z-index: 9999;
+  cursor: pointer;
+  display: none;
+}
+
+/* Responsive Setting*/
+@media (max-width: 991.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    float: right;
+    padding: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar .dropdown-menu {
+    background-color: #031A28;
+    text-align: left;
+    position: absolute;
+    top: 44px;
+    left: 534px;
+    right: 0px;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    direction: ltr;
+  }
+  .navbar .collapse {
+    margin-right: 10px ;
+  }
+  
+}
+
+@media (min-width: 575px) and (max-width: 767.98px) {
+  .navbar .dropdown-menu {
+    background-color: #031A28;
+    text-align: left;
+    position: absolute;
+    top: 44px;
+    left: 366px;
+    right: 0px;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 574.98px) {
+
+  .navbar-light .navbar-toggler{
+    margin-right: 15px;
+  }
+  .navbar-light .navbar-brand {
+    margin-left: 15px;
+  }
+  .navbar .dropdown-menu {
+    background-color: #031A28;
+    text-align: left;
+    position: absolute;
+    top: -2px;
+    left: 112px;
+    right: 158px;
+    border-radius: 0;
+    border: none;
+    min-width: auto !important;
+  }
+  .navbar .dropdown-menu .dropdown-item:hover,
+  .navbar .dropdown-menu .dropdown-item:focus {
+    background-color: transparent;
+    color: #FCA92D;
+  }
+}
+
